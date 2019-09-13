@@ -87,6 +87,7 @@ alt="Codefresh steps example 2"
 caption="Pipeline with 4 steps" 
 max-width="70%" 
 %}
+#
 
 1. The first step runs under the context of a Maven image that compiles the code and creates an executable.
 1. The second step uses a Docker image that contains terraform and creates a single ECS instance in AWS.
